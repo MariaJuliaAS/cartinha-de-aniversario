@@ -30,12 +30,20 @@
 
         h1 {
             text-align: left;
+            text-align: center;
         }
 
         p {
             color: white;
             text-align: left;
+            text-align: justify;
         }
+        @media (max-width: 768px) {
+    .conteudo {
+        padding: 10px; /* Reduza o espaço de preenchimento para dispositivos menores */
+        max-width: 100%; /* Permita que o conteúdo se expanda até a largura da tela */
+        border-radius: 0; /* Remova o arredondamento das bordas */
+    }
     </style>
 </head>
 <body>
